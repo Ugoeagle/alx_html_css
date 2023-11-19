@@ -11,7 +11,7 @@ article{
     flex: 2;
     overflow-y: auto;
     color: blue;
-    border: style: solid;
+    border: style solid;
 }
 aside{
     flex: 1;
