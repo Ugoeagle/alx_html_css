@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: cornflowerblue;
 }
 main{
     display: flex;
@@ -10,34 +11,11 @@ main{
 article{
     flex: 2;
     overflow-y: auto;
-    color: blue;
-    border: style solid;
 }
 aside{
     flex: 1;
     overflow-y: auto;
 }
-header{
- display: flex;
- height: 1px;
- justify-content: right;
- align-items: last baseline;
- padding-bottom: 0vb;   
-}
-table, th, tr, td{
-    border: 3px;
-    font-weight: lighter;
-}
-footer{
-   display: inline-block;
-   color: azure; 
-}
-p{
-display: flex;
-flex-direction: row;
-justify-items: center;
-border: 2px solid red;
-}
-h2{
-display: inline;;
+footer p{
+display: block;
 }
