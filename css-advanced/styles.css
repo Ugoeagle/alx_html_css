@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-image: url('image/CSS\ Advanced/Object.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1300px;
+}
+
+.section-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 220px;
+    padding-left: 220px;
+}
+
+.menue nav {
+    display: flex;
+    gap: 15px;
+    color: rgb(242, 247, 252);
+    text-transform: uppercase;
+}
+
+.menue>nav>li>a {
+    color: rgb(242, 247, 252);
+}
+
+.school>h1 {
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-left: 550px;
+    font-weight: 10rem;
+    font-size: 8rem;
+    color: rgb(242, 247, 252);
+}
+
+.school>nav {
+    padding-left: 850px;
+    color: rgb(242, 247, 252);
+    gap: 0.5rem;
+}
+
+.school>nav>a {
+    color: rgb(242, 247, 252);
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.school>#butt {
+    margin-top: 50px;
+    padding-left: 880px;
+    padding-top: 10px;
+}
+
+.school>#butt button {
+    text-transform: uppercase;
+    border: 1px solid rgb(184, 107, 255);
+    border-radius: 30px;
+    box-shadow: 0 5px rgb(24, 23, 23);
+    background-color: rgb(184, 107, 255);
+    padding: 20px;
+    color: rgb(242, 247, 252);
+}
+
+#emphatic {
+    margin-top: 70px;
+    padding-top: 150px;
+    padding-left: 800px;
+    font-weight: 500px;
+    font-size: xx-large;
+    color: rgb(242, 247, 252);
+}
+
+#emphatic>b {
+    color: rgb(184, 107, 255);
+}
+
+.section-smile {
+    display: flex;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 25%;
+    gap: 100px;
+    color: rgb(242, 247, 252);
+}
+
+.italic>h3 {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.italic p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#circle {
+    /* border: 1px solid ;*/
+    border-radius: 70px;
+}
+
+/*--section-middle---------------------------*/
+.section-middle {
+    background-color: rgb(184, 107, 255);
+    height: 300px;
+    display: flex;
+    padding-top: 90px;
+    padding-right: 400px;
+    padding-bottom: 50px;
+    padding-left: 26%;
+    gap: 40px;
+    color: rgb(242, 247, 252);
+}
+
+.section-middle img {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.aside {
+    padding-top: 50px;
+
+}
+
+.aside .gap {
+    margin-top: 60px;
+}
+
+.aside .gap-2 {
+    margin-top: 10px;
+}
+
+.h2 {
+    margin-top: 70px;
+    padding-top: 150px;
+    padding-left: 800px;
+    font-weight: 500px;
+    font-size: xx-large;
+    color: rgb(9, 9, 9);
+}
+
+.h2 b {
+    color: rgb(184, 107, 255);
+}
+
+/*--section-videos----------------------------------*/
+
+.section-play {
+    display: flex;
+    padding-top: 90px;
+    padding-right: 300px;
+    padding-left: 20%;
+    gap: 20px;
+}
+
+.video1 {
+    /*border: 1px solid red;*/
+    border-radius: 10px;
+    width: 280px;
+    height: 140px;
+    background-image: url(image/CSS\ Advanced/9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video1>.img {
+    padding-top: 2.5rem;
+    padding-left: 7rem;
+}
+
+.video2 {
+
+    border-radius: 10px;
+    width: 280px;
+    height: 140px;
+    background-image: url(image/CSS\ Advanced/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video2>.img2 {
+    padding-top: 2.5rem;
+    padding-left: 7rem;
+}
+
+.video3 {
+
+    border-radius: 10px;
+    width: 280px;
+    height: 140px;
+    background-image: url(image/CSS\ Advanced/8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video3>.img3 {
+    padding-top: 2.5rem;
+    padding-left: 7rem;
+}
+
+.video4 {
+
+    border-radius: 10px;
+    width: 280px;
+    height: 140px;
+    background-image: url(image/CSS\ Advanced/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video4>.img4 {
+    padding-top: 2.5rem;
+    padding-left: 7rem;
+}
+
+.ph4 {
+    padding-left: 20px;
+}
+
+.ph4>h4 {
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.ph4>p {
+    margin-top: 15px;
+}
+
+
+.flex {
+    display: flex;
+    padding-left: 20px;
+    gap: 30px;
+}
+
+.flex>img {
+    margin-top: 30px;
+    width: 50px;
+}
+
+.flex h4 {
+    padding-top: 50px;
+    color: rgb(184, 107, 255);
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+.rating>p>em {
+    padding-left: 5px;
+    color: rgb(184, 107, 255);
+}
+
+/*--section-mem------------------------------------------*/
+
+.section-outer {
+    margin-top: 70px;
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+}
+
+.section-outer h2 {
+    padding-top: 100px;
+    padding-left: 800px;
+    font-weight: 500px;
+    font-size: xx-large;
+    color: rgb(242, 247, 252);
+}
+
+.section-outer > h2 > b {
+    color: rgb(184, 107, 255);
+}
+
+.section-mem {
+    display: flex;
+    margin-top: 90px;
+    padding-top: 90px;
+    padding-right: 300px;
+    padding-left: 20%;
+    gap: 130px;
+}
+
+.iconsmile>img {
+    padding-left: 50px;
+}
+
+.iconsmile>h5 {
+    padding-top: 30px;
+    padding-left: 30px;
+    color: rgb(242, 247, 252);
+}
+
+.iconsmile>p {
+    padding-top: 20px;
+    gap: 10px;
+    color: rgb(242, 247, 252);
+}
+.section-outer .butt2{
+    margin-top: 50px;
+    padding-left: 880px;
+    padding-top: 10px;
+}
+
+.section-outer > .butt2 > button {
+    text-transform: uppercase;
+    border: 1px solid rgb(184, 107, 255);
+    border-radius: 30px;
+    box-shadow: 0 5px rgb(24, 23, 23);
+    background-color: rgb(184, 107, 255);
+    padding: 20px;
+    color: rgb(242, 247, 252);
+}
+
+/*--section-question-----------------------------------------------*/
+
+.faq {
+    text-transform: uppercase;
+    margin-top: 90px;
+    padding-top:70px ;
+    padding-left: 870px;
+    font-size: xx-large;
+}
+.section-question {
+    display: flex;
+    margin-top: 70px;
+    padding-top: 70px;
+    padding-right: 300px;
+    padding-left: 20%;
+    gap: 200px;
+}
+.section-question h5 {
+    font-size: large;
+    padding-bottom: 30px;
+}
+.section-question2 {
+    display: flex;
+    padding-top: 70px;
+    padding-right: 300px;
+    padding-left: 20%;
+    gap: 200px;
+}
+.section-question2 h5 {
+    font-size: large;
+    padding-bottom: 30px;
+}
+
+/*--section-footer---------------------------------------------*/
+
+footer {
+    margin-top: 90px;
+    background-color: rgb(0, 0, 0);
+    height: 250px;
+}
+.section-footer {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-right: 300px;
+    padding-left: 20%;
+}
+svg {
+    /*border: 1px solid rgb(255, 248, 248);*/
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+}
+footer > p {
+    text-align: center;
+    font-size: smaller;
+    color: rgb(173, 173, 173);
+    padding-top: 50px;
+}
